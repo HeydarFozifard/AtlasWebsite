@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: IranYekan;
+  src: url(../fonts/Yekan.woff);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  direction: rtl;
+  font-family: IranYekan;
+
+}
+
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: IranYekan;
+}
+
+a {
+  color: #000;
+
+}
+
+input,
+textarea {
+
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  font-family: IranYekan;
+
+}
